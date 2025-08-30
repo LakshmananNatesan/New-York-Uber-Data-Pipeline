@@ -11,13 +11,3 @@ Mage AI (ETL) – Ingest, transform, and orchestrate data pipelines
 BigQuery – Perform scalable data analytics
 
 Looker – Build dashboards to visualize insights
-
-## Project Architecture
-
-Raw Data (Cloud Storage) 
-        ⬇
-Mage AI (ETL on Compute Engine VM) 
-        ⬇
-BigQuery (Analytics & SQL Transformations) 
-        ⬇
-Looker (Dashboards & Reporting)
