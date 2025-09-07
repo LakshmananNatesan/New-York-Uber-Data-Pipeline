@@ -1,13 +1,33 @@
-# New-York-Uber-Data-Pipeline
+# Uber Data Analytics | Modern Data Engineering GCP Project
 
-This project demonstrates how to build an end-to-end ETL + Analytics pipeline for the New York Uber dataset using modern data tools.
+## Introduction
+This project dives into the world of Uber data analytics using modern data engineering practices on Google Cloud Platform (GCP). We'll leverage tools like Mage.ai for building an ETL pipeline, BigQuery for data warehousing, Looker Studio for data visualization, and Cloud Storage for managing data throughout the process.
 
-🔧 Tech Stack
+## Architecture
+![Project Architecture](magear.png)
 
-Cloud Storage – Store raw Uber trip data securely
+## Technology Used
+1. Programming Language - Python
+2. Scripting Language - SQL
+3. Google Cloud Platform
+   -  BigQuery
+   -  Cloud Storage
+   -  Looker Studio
+   -  Compute Instance
+4. Mage.AI (modern data pipeline tool)
 
-Mage AI (ETL) – Ingest, transform, and orchestrate data pipelines
+**Modern data Pipeline Tool:** https://www.mage.ai/
 
-BigQuery – Perform scalable data analytics
+**Contribute to this project here:** https://github.com/mage-ai/mage-ai
 
-Looker – Build dashboards to visualize insights
+## Dataset Used
+TLC Trip Record Data
+Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
+
+
+## Data Model
+![Data model image](magemodels1.jpeg)
+
+## Scripts for project
+1. [mage transformation](mage_transformation)
+2. [python transformation](python_transformation)
